@@ -11,6 +11,15 @@ This project demonstrates the application of a 3-layer Convolutional Neural Netw
 - Achieves competitive classification performance with a carefully designed 3-layer CNN.
 - Includes visualizations of training and validation metrics, such as accuracy and loss.
 
+## Hyperparameter Tuning
+Hyperparameter tuning was performed to optimize the CNN’s performance:
+- **Learning Rates**: Tested values in the set {0.001, 0.01, 0.1}.
+- **Batch Sizes**: Evaluated batch sizes of 8, 16, 32 and 64.
+- **Number of Convolutional filters**: Experimented with {8, 16, 32}
+- **Dropout rate**: Experimented dropout rates of 0.2 and 0.5.
+
+The best configuration achieved a classification accuracy of **90.12%** and an AUROC of **96.02%** on the test set.
+
 ## How to Run
 1. Clone the repository:
    ```bash
